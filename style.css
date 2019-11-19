@@ -1,0 +1,245 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.modal-dialog {
+  width: 500px;
+  height: 663px; }
+
+.modal-content {
+  padding: 30px; }
+  .modal-content .close {
+    outline: none; }
+  .modal-content .close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+    background-color: #eae8e7; }
+  .modal-content .close:hover {
+    opacity: 1; }
+  .modal-content .close:before,
+  .modal-content .close:after {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333; }
+  .modal-content .close:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 15px; }
+  .modal-content .close:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 15px; }
+  .modal-content h2 {
+    color: #2e2f33;
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700; }
+  .modal-content p {
+    width: 305px;
+    color: #646665;
+    font-family: "Roboto Light";
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px 2px; }
+  .modal-content .text-input {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .modal-content .text-input #input-name,
+    .modal-content .text-input #phone,
+    .modal-content .text-input #inputTime {
+      outline: none; }
+    .modal-content .text-input .name-text label {
+      color: #2e2f33;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 700; }
+    .modal-content .text-input .name-text input {
+      color: #646665;
+      font-family: "Roboto Light";
+      font-size: 16px;
+      font-weight: 300;
+      outline: none; }
+      .modal-content .text-input .name-text input:active {
+        color: #3f3f3f; }
+    .modal-content .text-input .phone-text {
+      padding-top: 20px; }
+      .modal-content .text-input .phone-text label {
+        color: #2e2f33;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700; }
+      .modal-content .text-input .phone-text input {
+        color: #646665;
+        font-family: "Roboto Light";
+        font-size: 16px;
+        font-weight: 300;
+        outline: none; }
+        .modal-content .text-input .phone-text input:active {
+          color: #3f3f3f; }
+    .modal-content .text-input .time-text {
+      padding-top: 20px; }
+      .modal-content .text-input .time-text label {
+        color: #2e2f33;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700; }
+      .modal-content .text-input .time-text input {
+        color: #646665;
+        font-family: "Roboto Light";
+        font-size: 16px;
+        font-weight: 300;
+        outline: none; }
+        .modal-content .text-input .time-text input:active {
+          color: #3f3f3f; }
+    .modal-content .text-input .check-text {
+      width: 296px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 25px 42px;
+      outline: none; }
+      .modal-content .text-input .check-text label {
+        color: #110f0d;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        font-weight: 300; }
+    .modal-content .text-input .btn-call a {
+      width: 213px;
+      height: 55px;
+      background-color: #2c57af;
+      color: #ffffff;
+      font-family: "Roboto Medium";
+      font-size: 18px;
+      font-weight: 500;
+      padding: 12px 10px;
+      margin-left: 28px;
+      outline: none; }
+
+.modal-content {
+  padding: 30px; }
+  .modal-content .close {
+    outline: none; }
+  .modal-content .close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 22px;
+    height: 22px;
+    opacity: 0.3;
+    background-color: #eae8e7; }
+  .modal-content .close:hover {
+    opacity: 1; }
+  .modal-content .close:before,
+  .modal-content .close:after {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333; }
+  .modal-content .close:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 15px; }
+  .modal-content .close:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 15px; }
+  .modal-content .red-head {
+    width: 498px;
+    height: 126px;
+    background-color: #ed1f33;
+    margin-top: -30px;
+    margin-left: -30px;
+    padding: 31px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+    .modal-content .red-head h2 {
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 27px;
+      font-weight: 700; }
+    .modal-content .red-head p {
+      width: 305px;
+      color: #d2ced0;
+      font-family: "Roboto Light";
+      font-size: 17px;
+      font-weight: 300;
+      padding: 5px 2px; }
+  .modal-content p {
+    color: #646665;
+    font-family: "Roboto Light";
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 22px; }
+  .modal-content .text-input {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .modal-content .text-input .name-text label {
+      color: #2e2f33;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 700; }
+    .modal-content .text-input .name-text input {
+      color: #646665;
+      font-family: "Roboto Light";
+      font-size: 16px;
+      font-weight: 300;
+      outline: none; }
+      .modal-content .text-input .name-text input:active {
+        color: #3f3f3f; }
+    .modal-content .text-input .phone-text {
+      padding-top: 20px; }
+      .modal-content .text-input .phone-text label {
+        color: #2e2f33;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700; }
+      .modal-content .text-input .phone-text input {
+        color: #646665;
+        font-family: "Roboto Light";
+        font-size: 16px;
+        font-weight: 300;
+        outline: none; }
+        .modal-content .text-input .phone-text input:active {
+          color: #3f3f3f; }
+    .modal-content .text-input .email-text {
+      padding-top: 20px; }
+      .modal-content .text-input .email-text label {
+        color: #2e2f33;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700; }
+      .modal-content .text-input .email-text input {
+        color: #646665;
+        font-family: "Roboto Light";
+        font-size: 16px;
+        font-weight: 300;
+        outline: none; }
+        .modal-content .text-input .email-text input:active {
+          color: #3f3f3f; }
+    .modal-content .text-input .btn-call a {
+      width: 213px;
+      height: 55px;
+      background-color: #2c57af;
+      color: #ffffff;
+      font-family: "Roboto Medium";
+      font-size: 18px;
+      font-weight: 500;
+      padding: 12px 10px;
+      margin-left: 28px;
+      outline: none; }
